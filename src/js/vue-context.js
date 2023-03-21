@@ -363,7 +363,7 @@ export default {
         // Only register the events we need
         const on = {
             // `!` modifier for capture
-            '!contextmenu': e => {
+            '!click': e => {
                 e.preventDefault();
             },
             keydown: this.onKeydown // up, down, esc
